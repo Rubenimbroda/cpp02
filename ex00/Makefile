@@ -3,8 +3,8 @@ NAME = fixed
 SRCS = 	Fixed.cpp \
 		main.cpp 
 
-C++ = c++
-CFLAGS = -Werror -Wextra -Wall -std=c++98
+CXX = c++
+CXXFLAGS = -Werror -Wextra -Wall -std=c++98
 
 OBJS = $(SRCS:.cpp=.o)
 
